@@ -1,0 +1,147 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-position: center;
+}
+
+a:hover {
+    color: rgb(166, 255, 0);
+    transition: all ease 0.5s;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.imges {
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: block;
+    margin-top: 25px;
+    margin-left: 250px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hheader {
+    padding: 0 30px;
+}
+
+.waxom {
+    margin-right: 100px;
+}
+
+.about {
+    color: wheat;
+}
+
+.fab {
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+main {
+    color: white;
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.center h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.fa-arrow-right {
+    margin-left: auto;
+    font-size: 50px;
+}
+
+.fa-arrow-left {
+    font-size: 50px;
+}
+
+.arrow {
+    padding: 0 40px;
+    display: flex;
+}
+
+.back {
+    width: 700px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.search {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.fa-shopping-bag {
+    margin-right: 40px;
+}
+
+.page2 {
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25%;
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    padding: 5%;
+}
+
+.block {
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.fas {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.block::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 40%;
+    margin: 0 auto;
+    background: lightslategray;
+}
+
+.main-text-block-line {
+    margin-bottom: 25px;
+}
